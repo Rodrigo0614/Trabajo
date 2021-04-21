@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    /*maren*/
+    padding: 0;
+    /*relleno*/
+}
+
+
+/*titulo*/
+
+h1 {
+    text-align: center;
+    /*donde va el elemento, derecha, izquierda, o centro*/
+    font-family: serif;
+    /*tipo de  letra*/
+    color: aqua;
+    /*color*/
+    size: +4;
+    /*tamaño de la letra*/
+    font-weight: 350;
+    /*grueso de letra*/
+}
+
+
+/*titulo*/
+
+h2 {
+    text-align: justify;
+    size: 17px;
+    font-family: serif;
+    margin-left: 6%;
+    /*espacio entre el borde la pantalla y el parrafo, imagen o otra cosa... este es izquierda*/
+    margin-right: 6%;
+    /*espacio entre el borde la pantalla y el parrafo, imagen o otra cosa.. este de derecha*/
+}
+
+
+/*menu*/
+
+#nav {
+    height: 57px;
+    /*ancho de la letra, imagen o cosa*/
+    background-color: #2e272d;
+    /* color de fondo*/
+    text-align: center;
+    margin-top: 0%;
+    /*espacio de el borde superior y imagen, parrafo, etc.*/
+}
+
+#nav ul {
+    list-style: none;
+    /*tipo de lista.. horizontal, o vertical*/
+    display: inline-block;
+    /* se mueve o no*/
+}
+
+#nav ul li {
+    float: left;
+    /*posicion de elemento*/
+    margin-top: 17px;
+}
+
+#nav ul li a {
+    color: white;
+    font-weight: bold;
+    /*colo de letra.. este es para el menu*/
+    text-decoration: none;
+    /*cuando pondes un link deja una linea, este quita la lineea esa*/
+    font-size: 17px;
+    padding: 20px;
+}
+
+.parrafo1 {
+    margin-left: 6%;
+    margin-right: 6%;
+    color: #1bd37dcc;
+    size: 20px;
+}
+
+.parrafo2 {
+    margin-left: 6%;
+    margin-right: 6%;
+    color: rgb(22, 20, 29);
+}
+
+.lista ul li {
+    margin-left: 6%;
+    margin-right: 6%;
+    color: rgb(22, 20, 29)
+}

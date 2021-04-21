@@ -1,0 +1,51 @@
+
+h2{
+	color:#f00;
+	text-aling: center;
+	
+	font-family:"Times New Roman", Times, serif;
+	
+	font-weight:350;
+	
+}
+p{
+	font-family:"Times New Roman", sans-serif;
+}
+
+
+
+
+/*menu*/
+
+#nav {
+    height: 57px;
+    /*ancho de la letra, imagen o cosa*/
+    background-color: #2e272d;
+    /* color de fondo*/
+    text-align: center;
+    margin-top: 0%;
+    /*espacio de el borde superior y imagen, parrafo, etc.*/
+}
+
+#nav ul {
+    list-style: none;
+    /*tipo de lista.. horizontal, o vertical*/
+    display: inline-block;
+    /* se mueve o no*/
+}
+
+#nav ul li {
+    float: left;
+    /*posicion de elemento*/
+    margin-top: 17px;
+}
+
+#nav ul li a {
+    color: white;
+    font-weight: bold;
+    /*colo de letra.. este es para el menu*/
+    text-decoration: none;
+    /*cuando pondes un link deja una linea, este quita la lineea esa*/
+    font-size: 17px;
+    padding: 20px;
+}
